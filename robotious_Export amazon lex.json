@@ -1,0 +1,1429 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "name": "robotious",
+    "version": "1",
+    "intents": [
+      {
+        "name": "cambiarTema",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "cambiemos de tema",
+          "Hablemos de otro personaje",
+          "Hablemos de otro",
+          "Hablemos de alguien mas",
+          "Ya me aburri",
+          "Quiero saber de alguien mas",
+          "que sabes de alguien mas",
+          "que sabes de los otros"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Se de muchos personajes mas, de quien te interesaria hablar?",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Conozco bastantes personajes, menciona algun personaje o despidamonos.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "deadpool",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es deadpool",
+          "que sabes de deadpool",
+          "deadpool",
+          "convercemos sobre deadpool",
+          "wad winston wilson",
+          "hablame mas de wad winston wilson",
+          "yo quiero saber de deadpool",
+          "me gusta mucho deadpool",
+          "cuentame todo acerca de wad winston wilson",
+          "podriamos conversar de deadpool",
+          "me encantaria hablar de deadpool",
+          "cuanto es lo que sabes de deadpool",
+          "empecemos hablando de wad winston wilson"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "es un personaje ficticio, mercenario, supervillano6 y antihroe, que aparece en los cmics publicados por Marvel Comics. Creado por el artista Rob Liefeld y el escritor Fabian Nicieza. Deadpool apareci por primera vez en New Mutants (vol. 1) #98 en 1991.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Como un mercenario mentalmente inestable y desfigurado, Deadpool apareci originalmente como Villano en el cmic New Mutants, y ms tarde en ediciones de X-Force.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "es famoso por su naturaleza comunicativa y por su tendencia a romper la Cuarta pared, un recurso utilizado por los escritores para un efecto humorstico. Su mayor enemigo es Taskmaster.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "falcon",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es falcon",
+          "cuentame todo de falcon",
+          "falcon",
+          "me interesa saber de falcon",
+          "que me podrias decir de falcon",
+          "samuel thomas",
+          "quien es samuel thomas",
+          "dime todo lo que sepas de samuel thomas",
+          "me encantaria hablar de falcon",
+          "sam",
+          "conoces de sam",
+          "hablemos de sam",
+          "en interesante el personaje de sam",
+          "yo quiero hablar de sam",
+          "yo quiero que me comentes algo de falcon",
+          "wilson",
+          "quien es wilson",
+          "dime todo de wilson"
+        ],
+        "slots": []
+      },
+      {
+        "name": "dracula",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "puedes contarme de dracula",
+          "dime lo que sepas de dracula",
+          "me encanta dracula",
+          "hablemos de dracula",
+          "conde dracula",
+          "dime lo que sepas del senor de los vampiros",
+          "cuentame de dracula"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Dracula nace en 1430, siendo el segundo hijo de Vlad Dracul, un noble transilvano que poco despus es nombrado prncipe de Valaquia, un principado rumano en la frontera sur de Transilvania. Rumana, por entonces est asediada por los turcos otomanos bajo el sultn Murad II, que ha conquistado Servia y Bulgaria y est amenazando a toda Europa",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Dracula es casi imposible de matar ya que no puede ser herido ni destruido por medios convencionales. Lo nico que le causa heridas que podran acabar con l es la luz del sol; la plata tambin daa al vampiro, siendo posible herirlo mediante armas o balas de plata. Es posible matarlo clavndole una estaca en el corazn, aunque Drcula puede volver a la vida si la estaca es retirada de su pecho",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "brujaEscarlata",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es Wanda Maximoff",
+          "cuentame sobre Wanda Maximoff",
+          "me interesa saber de Wanda Frank",
+          "sabes quien es Wanda Frank",
+          "Wanda Maximoff",
+          "Wanda Frank",
+          "me gusta mucho Wanda Frank",
+          "cuentame de la bruja escarlata",
+          "quien es la bruja escarlata"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Wanda Maximoff es una superherona ficticia que aparece en los cmics publicados por Marvel Comics. Apareci por primera vez en X-Men #4 en 1964 y fue creada por Stan Lee y Jack Kirby, debutando en la denominada Edad de Plata de los Cmics.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "fue presentada como una supervillana junto con su hermano gemelo Quicksilver, ambos miembros fundadores de la Hermandad de Mutantes.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "presentado en sus inicios como una mutante, posee habilidades para alterar la realidad de formas no especificadas y es, adems, una poderosa hechicera. Ms tarde, se convertira en miembro regular de Los Vengadores. Con el tiempo, contraera matrimonio con su compaero de equipo Visin.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Descritos como los hijos del Zumbador (superhroe de la Edad de Oro de los Cmics), la Bruja Escarlata y su hermano Quicksilver se establecieron ms tarde como descendientes del supervillano Magneto (quien desconoca de su existencia).",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "La Bruja Escarlata ha aparecido durante cinco dcadas ininterrumpidas en las pginas de cmics de Marvel, protagonizando dos series homnimas limitadas junto con su marido Visin, y siendo miembro regular en las entregas de Los Vengadores.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "ben",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "que conoces acerca de ben",
+          "ben",
+          "dime lo que sabes de ben",
+          "platiquemos de ben",
+          "hablemos del tio ben",
+          "tio ben",
+          "quien es el tio ben"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Ben era el rocoso miembro de los 4 Fantsticos junto a su mejor amigo Reed Richards, la mujer de este Susan y el hermano de esta.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Ademas de su fuerza sobrehumana, posee resistencia sobrehumana",
+              "groupNumber": 2
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Humano alterado por los rayos csmicos",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "universeDC",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "DC Comics",
+          "Me gusta Dc",
+          "DC",
+          "Prefiero DC"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Es un lio, ya que el Universo DC (UDC) fue originalmente llamado Tierra-1, ms tarde por los eventos contados en las Crisis y despus de las siguientes secuelas de las mismas historias denominada como Nueva Tierra, Tierra-0 y recientemente, Tierra-Prime.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Prefiero Marvel, aunque es el universo en el que todos los personajes de la editorial conviven entre s. Esto ayuda a darle coherencia y sentido de la continuidad a las historias",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "capitanAmerica",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "conoces a capitan america",
+          "quien es capitan america",
+          "que sabes sobre steve",
+          "cuentame de Steven Rogers",
+          "capitan america",
+          "Steven Rogers",
+          "steve",
+          "me gustaria saber de steve",
+          "me encanta capitan america",
+          "dime lo que sepas de capitan america",
+          "me interesa saber sobre capitan america",
+          "sabes algo de steve",
+          "empecemos la charla hablando de capitan america",
+          "podriamos hablar de capitan america",
+          "podemos hablar de steve"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Es un superhroe y justiciero ficticio que aparece en cmics estadounidenses publicados por Marvel Comics. Creado por los historietistas Joe Simon y Jack Kirby, el personaje apareci por primera vez en Captain America Comics #1 en marzo de 1941 en la serie de Timely Comics",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "El Capitn Amrica fue diseado como un supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda Guerra Mundial, y fue el personaje ms popular de Timely Comics durante el perodo de guerra.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "El Capitn Amrica viste un traje que lleva un motivo de la bandera de los Estados Unidos, y est armado con un escudo (compuesto de una aleacin de un metal Extraterrestre &quot;Adamantium&quot; y de Vibranium que se encuentra en continente Africano y ms especficamente en el pas de Wakanda) indestructible el cual arroja a sus enemigos.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "El personaje es generalmente representado como el lter ego de Steve Rogers, un joven frgil mejorado a la cima de la perfeccin humana por un suero experimental para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial. Cerca del final de la guerra, l queda atrapado en el hielo y sobrevive en animacin suspendida hasta que es revivido en el presente como lider de los Vengadores.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "antiheroe",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "Que es un antiheroe",
+          "Antiheroe",
+          "Que es ser un antiheroe",
+          "Por que antiheroe"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Un antihroe es un personaje de ficcin cuyas caractersticas son contrarias1 o que no corresponden2 a las del hroe tradicional, ya que los antihroes son imperfectos y poseen los defectos de la gente comn",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Un antihroe,generalmente realizar actos que son juzgados &quot;heroicos&quot;, pero lo har con mtodos, intenciones o motivos que no lo son.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "despedida",
+        "version": "4",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "hasta luego",
+          "muchas gracias por la ayuda",
+          "fuiste muy amable al responder mis preguntas",
+          "agradezco tu tiempo",
+          "gracias",
+          "adios",
+          "bye",
+          "gracias por ayudarme",
+          "gracias adios",
+          "gracias hasta pronto"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "de nada, estoy para servirte.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Vuelve pronto, gracias por la platica.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "recuerda que soy robotius y resolvere todas tus dudas, cuidate.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "elektra",
+        "version": "3",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es elektra",
+          "platicame todo de elektra",
+          "dime cuanto sabes de elektra",
+          "elektra",
+          "por favor dime quien es elektra",
+          "necesito saber bien de elektra",
+          "me encanta elektra",
+          "hablemos de elektra",
+          "podemos hablar de elektra",
+          "empecemos la charla hablando de elektra"
+        ],
+        "slots": []
+      },
+      {
+        "name": "logan",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "que hace logan",
+          "logan",
+          "platicame de logan",
+          "quien es logan",
+          "podemos hablar sobre logan",
+          "dime lo que sabes de logan"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Poco se sabe del pasado y de los orgenes del mutante conocido nicamente como Logan antes de entrar en el Instituto Xavier, un instituto creado por Charles Xavier para entrenar a mutantes en el uso de sus poderes",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Tiene factor de curacin acelerado",
+              "groupNumber": 2
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Se desconoce si posee fuerza sobrehumana",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "daredevil",
+        "version": "3",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es daredevil",
+          "que conoces acerca de daredevil",
+          "me gusta daredevil",
+          "quien es el senor del crimen",
+          "hablame acerca de jack",
+          "conoces de jack",
+          "dime cosas de battlin",
+          "battlin",
+          "jack",
+          "daredevil",
+          "quien es Laurent LeVasseur",
+          "cuentame de Laurent LeVasseur",
+          "quien es battlin",
+          "me encanta el innombrado",
+          "innombrado",
+          "yo necesito saber del hombre sin miedo",
+          "quien es DD",
+          "hablame mas acerca de DD",
+          "tu sabes de DD",
+          "quiero hablar de daredevil",
+          "DD",
+          "me podrias hablar de cooper peyton",
+          "me gusta cooper peyton",
+          "scarlet swashbuckler",
+          "quien es scarlet swashbuckler"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "&quot;Matt&quot; Murdock, es un personaje ficticio de la editorial Marvel Comics, creado por Stan Lee y Bill Everett, el cual tuvo su primera aparicin en el comic-book Daredevil #1, publicado en 1964.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Daredevil experiment un cambio en los aos ochenta cuando se convirti en un personaje ms oscuro, y sus historias pasaron a dirigirse a un pblico ms adulto.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "deadShot",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quie es Floyd Lawton",
+          "cuentame mas de Floyd Lawton",
+          "Floyd Lawton",
+          "podrias decirme quien es deadshot",
+          "deadshot",
+          "me gusta mucho deadshot",
+          "yo quiero empezar a hablar de deadshot",
+          "me encantaria conocer de deadshot",
+          "quiero charlar sobre deadshot",
+          "que tanto conoces de deadshot",
+          "hablemos de deadshot",
+          "cuentame lo que sepas de deadshot",
+          "podriamos hablar acerca de Floyd Lawton"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Creado por David Vern Reed, Lew Schwartz y Bob Kane , el personaje hizo su primera aparicin en Batman # 59 en junio-julio de 1950.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Es un excelente francotirador que regularmente se jacta de no perder nunca un disparo, y a menudo es considerado como uno de los asesinos ms mortferos del Universo DC.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Deadshot es un adversario del superhroe Batman y pertenece al colectivo de enemigos que conforman su galera de villanos. Aunque normalmente se lo representa como un supervillano, a veces se lo representa como un antihroe",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "duendeVerde",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es el duende verde",
+          "duende verde",
+          "hablame del duende verde",
+          "cuanto conoces del duende verde",
+          "quien es iron patriot",
+          "platiquemos de iron patriot",
+          "super adaptoide",
+          "quien es super adaptoide",
+          "me interesa saber de super adaptoide",
+          "rey duende",
+          "que tanto sabes del rey duende",
+          "podrias hablarme del rey duende",
+          "overlord",
+          "quien es overlord",
+          "es interesante overlord",
+          "cuanto conoces de overlord",
+          "mason banks",
+          "intenta hablarme de mason banks",
+          "yo quiero hablar de mason banks",
+          "cuentame todo de mason banks",
+          "duende rojo",
+          "quien es el duende rojo",
+          "hablemos del duende rojo",
+          "yo quiero hablar del duende rojo",
+          "empecemos la charla habalndo del duende rojo"
+        ],
+        "slots": []
+      },
+      {
+        "name": "antMan",
+        "version": "7",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "el hombre hormiga",
+          "ant man",
+          "que sabes sobre ant man",
+          "que sabes sobre el hombre homiga",
+          "conoces a ant man",
+          "conoces a antman",
+          "conoces al hombre hormiga",
+          "que sabes sobre el antman",
+          "antman"
+        ],
+        "slots": [
+          {
+            "name": "actor",
+            "slotConstraint": "Required",
+            "slotType": "AMAZON.Actor",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "El personaje era originalmente el sobrenombre del superheroe cientfico brillante Hank Pym, despues de haber inventado una sustancia que puede hacer que la persona cambie su proporcion. Pero Scott Lang y Eric O'Grady tambien tomaron el manto despues de que el original cambia su identidad como superheroe por la de varios otros sobrenombres. Deseas saber algo mas?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "followUpPrompt": {
+          "prompt": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Este personaje fue visto por primera vez en la serie de ComicsTales to Astonish #27 en enero de 1962. Creado por Stan Lee, Larry Lieber y Jack Kirby.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Varios personajes han asumido el nombre de Ant-Man con el pasar de los aos; la mayora de estos personajes han sido miembros de Los Vengadores.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "El Hombre Hormiga original fue el doctor Henry 'Hank' Pym, experto en biofsica y miembro del Centro de Operaciones de Seguridad que decidi convertirse en un superhroe despus de la muerte de su primera esposa, Maria Trovaya, quien haba sido disidente poltica en su natal Hungra.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Scott Lang fue un ladrn que se convirti en Ant-Man despus de robar el traje de Ant-Man para salvar a su hija Cassandra &quot;Cassie&quot; Lang de una afeccin cardaca.5 Como parte de su vida criminal, Lang pronto inici una carrera de tiempo completo como Ant-Man, con la ayuda de Hank Pym.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Eric O'Grady es el nuevo &quot;hroe&quot; que tom la identidad de Ant-Man. O'Grady era un miembro menor de S.H.I.E.L.D. que rob el traje de Ant-Man en la sede S.H.I.E.L.D.,9 un hombre de poca moral y dispuesto a mentir, engaar, robar y manipular para salir adelante en la vida; rob la armadura para sus propios planes egostas, que incluan usar su condicin de &quot;superhroe&quot; para seducir mujeres10 y humillar y atormentar a otros.",
+                "groupNumber": 1
+              }
+            ],
+            "maxAttempts": 3
+          },
+          "rejectionStatement": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Esta bien, hablemos sobre otro personaje.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Hablemos de otro personaje.",
+                "groupNumber": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "antorchaHumana",
+        "version": "6",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "antorcha humana",
+          "quien es antorcha humana",
+          "me encanta antorcha humana",
+          "podrias decirme quien es antorcha humana",
+          "conoces algo interesante de antorcha humana",
+          "me explicarias quien es human torch",
+          "yo quiero conocer mas a cerca de antorcha humana",
+          "sabes quien es antorcha",
+          "quien es Johnatan Lowel Spencer",
+          "human torch",
+          "quien es human torch",
+          "sabes quien es human torch",
+          "quiero conocer mas sobre human torch"
+        ],
+        "slots": [
+          {
+            "name": "sino",
+            "slotConstraint": "Required",
+            "slotType": "AMAZON.AggregateRating",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "\"Llamas a mi!\", lo recuerdas?, es la frase que la Antorcha habitualmente grita cuando enciende su cuerpo en llamas, se ha convertido en su eslogan. Quisieras saber mas?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "followUpPrompt": {
+          "prompt": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Jonathan Lowell Spencer &quot;Johnny&quot; Storm, tambien conocido como la Antorcha Humana, es un miembro fundador de los 4 Fantasticos. Creado por el escritor Stan Leey el artista Jack Kirby, el personaje aparecio por primera vez en Fantastic Four, Vol. 1, #1 en noviembre de 1961.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Al igual que el resto de los 4 Fantsticos, la Antorcha Humana obtuvo sus poderes en una nave espacialbombardeada por rayos cosmicos",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "El puede convertir su cuerpo en llamas, es capaz de volar, puede absorber el fuego sin causar heridas a su propio cuerpo, y puede controlar cualquier llama cercana con la pura fuerza de voluntad.",
+                "groupNumber": 1
+              }
+            ],
+            "maxAttempts": 3
+          },
+          "rejectionStatement": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Ok, nombra otro personaje",
+                "groupNumber": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "capitanMarvel",
+        "version": "5",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es capitana marvel",
+          "capitana marvel",
+          "hablemos de capitana marvel",
+          "dime todo de capitana marvel",
+          "podrias decirme quien es capitana marvel",
+          "por favor cuentame de capitana marvel",
+          "intentemos hablar primero de capitana marvel",
+          "yo quiero conocer de capitana marvel",
+          "que sabes de capitana marvel",
+          "platiquemos de capitana marvel",
+          "empecemos a hablar de capitana marvel",
+          "me gusta mcuho capitana marvel dime algo"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Fue creada por el escritor Roy Thomas y diseada por el artista Gene Colan, la Comandante Carol Danvers apareci por primera vez como miembro de la Fuerza Area de los Estados Unidos en Marvel Super-Heroes #13 (marzo de 1968) y debut como la primera encarnacin de Ms. Marvel en Ms. Marvel #1 (enero de 1977) despus de que una fusin entre genes humano y extraterrestre Kree le dan poderes sobrehumanos, lo cual ocurri en Captain Marvel #18 (noviembre de 1969).",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Debutando en la Edad de Plata de los Cmics, el personaje apareci en una serie homnima en la dcada de 1970 antes de ser asociada con los equipos de superhroes de Los Vengadores y los X-Men.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "nova",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es nova",
+          "por favor hablemos de nova",
+          "me interesa saber de nova",
+          "cohete humano",
+          "dime mas acerca del cohete humano",
+          "conversemos acerca de cohete humano"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "El Centurin Rhomann Dey, perteneciente a los Cuerpos Nova de Xandar, se encontraba mortalmente herido, tras un combate contra el aliengena Zorr, que haba causado una terrible destruccin en Xandar.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "El traje de Nova esta hecho de materiales aliengenas desconocidos de una gran resistencia, incluso a los rigores del Espacio Exterior. El traje es hermtico. El casco esta provisto con innumerables circuitos que permiten a Nova monitorizar transmisiones de radio, vista telescpica, sensores de visin nocturna e infrarrojos. El casco tambin informa a Nova de los tipos de energa que puede absorber.",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dormammu",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "dormammu",
+          "quien es dormammun",
+          "me dirias que sabes de dormammun",
+          "empecemos la charla hablando acerca de dormammun",
+          "quien es el oscuro",
+          "platicame del oscuro",
+          "me encanta el personaje oscuro",
+          "quien es el senor del caos",
+          "el gran enigma",
+          "dime todo lo que sepas del gran enigma",
+          "maestro de los seres sin mente",
+          "quien es el maestro de los seres sin mente",
+          "empecemos la charla hablando de los seres sin mente",
+          "yo quiero hablar de dormammu",
+          "tu sabes algo de dormammu",
+          "empecemos la conversacion hablando de dormammu"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "El personaje aparecio por primera vez en Strange Tales # 126 en noviembre de 1964, y fue creado por Stan Lee y Steve Ditko.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Debutando en la Edad de Plata de los cmics, Dormammu ha aparecido en seis dcadas de publicaciones de Marvel, destacando en los ttulos de Doctor Strange y series limitadas como un enemigo recurrente del hroe mstico.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "saludoUsuario",
+        "version": "5",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "Hola",
+          "Que tal",
+          "Ayuda",
+          "Holi",
+          "Buenos dias",
+          "Buenas tardes",
+          "Buenas noches",
+          "Buen dia",
+          "Podrias ayudarme",
+          "Que onda",
+          "cuentame mas",
+          "dime mas",
+          "hablame mas"
+        ],
+        "slots": [
+          {
+            "name": "lastName",
+            "slotConstraint": "Required",
+            "slotType": "AMAZON.US_LAST_NAME",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Hola, como te llamas?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Mucho gusto {lastName}. Cual es tu superheroe favorito?",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Gusto en saludarte {lastName}, soy Robotious y me gustan los Comics, que universo prefieres?",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "drax",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es drax",
+          "drax",
+          "yo quiero hablar de drax",
+          "quien es Arthur Sampsom Douglas",
+          "Arthur Sampsom Douglas",
+          "me interesaria conocer de drax",
+          "podemos hablar de drax",
+          "tu conoces de Arthur Sampsom Douglas",
+          "me puedes decir quien es drax",
+          "me gusta mucho drax",
+          "hablemos de drax",
+          "dime todo de drax"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Creado por el escritor Mike Friedrich y el escritor / artista Jim Starlin, el personaje apareci por primera vez en Iron Man #55 en Febrero de 1973.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Arthur Douglas era un humano cuya familia fue atacada y asesinada por el supervillano Thanos. Necesitando a un campen para combatir a Thanos, el ser conocido como Kronos tom el espritu de Arthur y lo coloc en un nuevo y poderoso cuerpo, y Drax el Destructor naci.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Los poderes de Drax incluan fuerza y resistencia aumentadas, vuelo, y la habilidad de proyectar rfagas de energa de sus manos. El personaje frecuentemente luchaba contra Thanos, y en ocasiones contra los superhroes Capitn Marvel y Adam Warlock.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "se convirti en miembro de los relanzados Guardianes de la Galaxia",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "batman",
+        "version": "5",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "batman",
+          "a mi me gusta batman",
+          "podrias hablarme de batman",
+          "que sabes de batman",
+          "siempre me ha interesado saber de batman",
+          "quiero hablar de batman",
+          "necesito saber acerca de Bruce Wayne",
+          "conoces a Bruce Wayne",
+          "cuentame mas de Bruce Wayne"
+        ],
+        "slots": [
+          {
+            "name": "inform",
+            "slotConstraint": "Optional",
+            "slotType": "AMAZON.AdministrativeArea",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Al igual que sus compañeros de la Liga de la Justicia Mujer Maravilla, Superman y Batman, Flash tiene un elenco distintivo de adversarios, incluidos los diversos Renegados (únicos entre los supervillanos de DC por su código de honor) y los diversos \"velocistas\" psicópatas que se conocen con el nombre \"Flash Reverso o \"Zoom\".Deseas seguir hablando de este personaje?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Es un personaje creado por los estadounidenses Bob Kane y Bill Finger. Aparecio por primera vez en la historia titulada El caso del sindicato quimico de la revista Detective Comics #27, lanzada por la editorial National Publication sen mayo de1939.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Es un empresario multimillonario y filantropo jede de Empresas Wayne en Gotham City.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Se trata de uno de los personajes mas emblematicos de DC Comics. Dada su buena aceptacin, obtuvo su propia revista en 1940.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "La identidad secreta de Batman es Bruce Wayne(Bruno Diaz en algunos pases de habla hispana).",
+              "groupNumber": 2
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Despues de ser testigo del asesinato de sus padres en un violento y fallido asalto cuando era nio, jura vengarse y combatir la delincuencia para lo cual se somete a un riguroso entrenamiento fisico y mental. Adopta el diseo de unmurcielagopara su vestimenta, sus utensilios de combate y sus vehiculos.",
+              "groupNumber": 2
+            },
+            {
+              "contentType": "PlainText",
+              "content": "A diferencia de los superheroes, no tiene superpoderes: recurre a su intelecto, asi como a aplicaciones cientificas y tecnologicas para crear armas y herramientas con las cuales lleva acabo sus actividades.",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "ciclope",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "cuentame sobre scott",
+          "quien es scott",
+          "que sabes de ciclope",
+          "cuentame sobre slim",
+          "quien es summers",
+          "sabes algo de Erick el rojo",
+          "quien es Erick el rojo",
+          "Erick el rojo",
+          "summers",
+          "slim",
+          "cuentame todo de ciclope",
+          "yo quiero hablar de ciclope",
+          "empecemos hablando de ciclope"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Ciclope (Scott Summers), es un superhroe de historietas del Universo Marvel creado por Stan Lee y Jack Kirby, cuya primera aparicin data de (The Uncanny) X-Men #1 en 1963.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "es un miembro de una subespecie de humanos conocidos como mutantes, que nacen con habilidades sobrehumanas.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Cclope puede emitir potentes rayos de energa de sus ojos. No puede controlar las descargas sin la ayuda de gafas especiales que debe usar en todo momento.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "es generalmente considerado el primero de los X-Men, un equipo de hroes mutantes que luchan por la paz y la igualdad entre mutantes y humanos, y uno de los principales lderes del equipo.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "aquaman",
+        "version": "5",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "aquaman",
+          "Arthur Curry",
+          "Orin",
+          "conoces a aquaman",
+          "que sabes de aquaman",
+          "me gusta aquaman",
+          "conoces a Arthur Curry",
+          "conoces a Orin",
+          "cuentame sobre Arthur Curry",
+          "hablame de aquaman",
+          "hablame de Arthur Curry",
+          "Quien es Arthur Curry",
+          "quien es aquaman",
+          "quien es orin",
+          "hablame de orin",
+          "cuentame sobre aquaman",
+          "cuentame sobre orin"
+        ],
+        "slots": [
+          {
+            "name": "inform",
+            "slotConstraint": "Optional",
+            "slotType": "AMAZON.AdministrativeArea",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Aquaman es un superheroe creado por Paul Norris y Mort Weisinger, el personaje debuto en More Fun Comics, #73 en noviembre de 1941. Deseas mas informacion?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "followUpPrompt": {
+          "prompt": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Durante el periodo de superheroe-renacimiento conocido como la Edad de Plata (1950-1960), fue un miembro fundador de la Liga de la Justicia.",
+                "groupNumber": 1
+              },
+              {
+                "contentType": "PlainText",
+                "content": "Aquaman ha sido adaptado para la pantalla muchas veces, apareciendo primero en forma animada en La hora de la Aventura de Superman y Aquaman de 1967 y luego en el programa relacionado los Sper amigos.",
+                "groupNumber": 1
+              }
+            ],
+            "maxAttempts": 3
+          },
+          "rejectionStatement": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Ok, tienes otro personaje en mente?",
+                "groupNumber": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "blackWidow",
+        "version": "4",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "blackWidow",
+          "que conoces acerca de blackWidow",
+          "cuentame de blackWidow",
+          "quien es la viuda negra",
+          "me encantaria saber mas de la viuda negra",
+          "black widow",
+          "quien es black widow",
+          "personaje de la viuda negra",
+          "cuanto sabes de black widow"
+        ],
+        "slots": [
+          {
+            "name": "sono",
+            "slotConstraint": "Optional",
+            "slotType": "AMAZON.Artist",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "Natalia Alianovna Romanova,es una superheroina ficticia que aparece en el comic estadounidense y libros publicados por Marvel Comics. Creado por el editor y trazador Stan Lee, el guionista Don Rico y el artista Don Heck, el personaje debut en Tales of Suspense # 52 en abril de 1964. Deseas saber mas?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "sampleUtterances": []
+          }
+        ],
+        "followUpPrompt": {
+          "prompt": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "El personaje fue presentado como una espa rusa, una antagonista del superhroe Iron Man. Ms tarde, desert a los Estados Unidos, convirtindose en una agente de la organizacin ficticia S.H.I.E.L.D., y miembro del equipo de superhroes, Los Vengadores.",
+                "groupNumber": 1
+              }
+            ],
+            "maxAttempts": 3
+          },
+          "rejectionStatement": {
+            "messages": [
+              {
+                "contentType": "PlainText",
+                "content": "Hablemos de otro personaje.",
+                "groupNumber": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "personajesAns",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "que personajes conoces",
+          "que sabes sobre los personajes de marvel",
+          "que sabes sobre los personajes de dc",
+          "hablemos de los personajes",
+          "que superheroes conoces",
+          "que supervillanos conoces",
+          "supervillanos",
+          "superheroes",
+          "personajes"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Conozco muchos, podrias nombrar alguno en especifico?",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "En realidad conozco alguno, de quien quieres saber?",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "universe",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "Marvel",
+          "Me gusta marvel",
+          "Prefiero Marvel.",
+          "Obvio Marvel."
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Oh, me gusta el Universo de Marvel. El termino suele utilizarse para referirse a la continuidad principal de Marvel, conocida como Tierra 616; pero a veces se usa tambien para hablar del Multiverso Marvel.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Me gusta mucho, {lastName}, mas porque el Universo Marvel esta fuertemente basado en el mundo real. La Tierra en el Universo Marvel tiene todas las caracteristicas de la real: mismos paises, mismas personalidades (politicos, estrellas de cine, etc.), mismos acontecimientos historicos (como la Segunda Guerra Mundial), y asi sucesivamente. Es como si formara parte de nuestro universo!",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Es increible, el Universo Marvel incorpora ejemplos de casi todos los principales conceptos de ciencia ficcion y fantasia, con los escritores incorporando mas continuamente. Extraterrestres, dioses, magia, poderes cosmicos y tecnologia extremadamente avanzada desarrollada por humanos, todos existiendo en el Universo Marvel.Un universo que incorpora todos estos tipos de elementos fantasticos es bastante raro.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "tellmeMore",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [],
+        "slots": []
+      },
+      {
+        "name": "argon",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es argon",
+          "cuentame de argon",
+          "que tanto sabes de argon",
+          "quien es el comandante de la fuerza",
+          "comandante de la fuerza",
+          "hablemos del comandante de la fuerza"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Argon era el hijo de los regentes de Mundohogar, el planeta ms importante del Microverso. Como sus padres haban sido asesinados por el Barn Karza, tanto l como su hermana Mari se unieron a los rebeldes que se oponan al tirano",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Durante un largo periodo de tiempo el cuerpo de Argon fue transformado en un centauro en los Bancos de Cuerpo. Ms tarde recuper su forma humana normal, pero de nuevo su cuerpo fue mutado, esta vez en el de un ser compuesto de energa.",
+              "groupNumber": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "drStrange",
+        "version": "3",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es el doctor strange",
+          "dr strange",
+          "hablemos del doctor strange",
+          "cuentame todo lo que sepas del dr strange",
+          "doctor strange",
+          "podriamos hablar del dr strange",
+          "me interesa conocer del dr strange",
+          "que tanto sabes del doctor strange",
+          "me gusta mucho el doctor strange",
+          "me encanta el dr strange",
+          "yo quiero conocer del doctor strange"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Creado por el artista Steve Ditko y el escritor Stan Lee,2 el personaje apareci por primera vez en Strange Tales #110 en julio de 1963.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Doctor Strange sirve como el Hechicero Supremo, el principal protector de la Tierra contra las amenazas mgicas y msticas.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Inspirado en historias de magia negra y Chandu el Mago, Strange fue creado durante la edad de plata de los cmics para traer un tipo diferente de personajes y temas a Marvel Comics.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "bestia",
+        "version": "6",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es la bestia",
+          "cuentame algo sobre la bestia",
+          "podrias hablarme acerca de la bestia por favor",
+          "cuentame todo de Hank",
+          "es muy interesante saber de la bestia",
+          "cunto sabes de Wendell Henry",
+          "es interesante el personaje de Wendell Henry",
+          "hablame de la bestia",
+          "quien es Hank"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "Bestia es un superheroe que aparece en los comics publicados por Marvel Comics. Es un miembro fundador del equipo de superheroes mutantes conocidos como los X-Men.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Bestia era un mutante que poseia fuerza y agilidad sobrehumanas, con manos y pies muy grandes, aunque por lo demsa parecia ser un humano normal. A lo largo de su historia, Bestia sufre transformaciones progresivas de su fisionoma, ganando de forma permanente caractersticas fisicas cada vez mas bestiales. Estas incluyeron piel azul y rasgos felinos en su primer transformacion y simiescos en la ultima.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Como uno de los X-Men originales, Bestia ha aparecido regularmente en cmics relacionados con los X-Men a travs de los aos. Tambin ha sido miembro de otros equipos, como los Vengadores y los Defensores.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "A pesar de su aspecto inhumano, es un hombre brillante en las artes y las ciencias; es una autoridad mundial en la Bioqumica y la Gentica, el mdico de los X-Men, y el instructor de Matemticas y Ciencias en el Instituto Xavier (la sede de los X-Men y una escuela para jvenes mutantes).",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "es un activista poltico mutante. Luchando contra sus sentidos bestiales y a su miedo al rechazo social, Bestia dedica sus dones fsicos y mentales para crear un mundo mejor para el hombre y el mutante. Tambin tiene un ingenioso sentido del humor.",
+              "groupNumber": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "flash",
+        "version": "5",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "quien es flash",
+          "conoces de flash",
+          "cuentame todo de flash",
+          "me encanta flash",
+          "que tanto conoces de flash",
+          "corredor escarlata",
+          "dime todo del corredor escarlata",
+          "quien es kids flash",
+          "podrias decirme de kids flash",
+          "el cometa carmesi",
+          "quien es el cometa carmesi",
+          "yo quiero hablar del cometa carmesi",
+          "quien es la mancha",
+          "hablemos de la mancha",
+          "dime lo que sepas de la mancha",
+          "me encantaria saber de la mancha",
+          "cuentame todo del rayo veloz",
+          "podriamos hablar del rayo veloz",
+          "centella",
+          "quien es centella",
+          "hablemos de centella",
+          "cuentame de centella",
+          "destello",
+          "quien es destello",
+          "explicame quien es destello",
+          "comencemos hablando de destello",
+          "quien es el hombre que corre",
+          "platicame del hombre que corre",
+          "podemos hablar de flash"
+        ],
+        "slots": [],
+        "conclusionStatement": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "The Flash es uno de los personajes mas populares de DC Comics y ha sido parte integral de las muchashistorias de crisis que cambian la realidada lo largo de los aos.",
+              "groupNumber": 1
+            },
+            {
+              "contentType": "PlainText",
+              "content": "Al igual que sus compaeros de la Liga de la JusticiaMujer Maravilla,SupermanyBatman, Flash tiene un elenco distintivo de adversarios, incluidos los diversosRenegados(nicos entre los supervillanos de DC por su cdigo de honor) y los diversos velocistas psicpatas que se conocen con el nombre Flash Reversoo Zoom",
+              "groupNumber": 2
+            }
+          ]
+        }
+      }
+    ],
+    "voiceId": "Joanna",
+    "childDirected": false,
+    "locale": "en-US",
+    "idleSessionTTLInSeconds": 300,
+    "clarificationPrompt": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "No te entiendo, podrias decirlo con otras palabras?"
+        },
+        {
+          "contentType": "PlainText",
+          "content": "Disculpa, podrias repetirlo?"
+        }
+      ],
+      "maxAttempts": 2
+    },
+    "abortStatement": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Lo siento, no pude entenderte, espero aprender pronto sobre eso. Cuidate,"
+        }
+      ]
+    }
+  }
+}
